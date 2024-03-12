@@ -2,7 +2,7 @@
 
 /* Секция Header - навигация и заголовок */
 .header {
-  background-image: url(/img/rock-731140_1920-1.png);
+  background-image: url(./img/rock-731140_1920-1.png);
   background-size: cover;
   background-color: #000000;
   width: 1920px;
@@ -365,7 +365,7 @@
 
 .container__search-btn::after {
   content: "";
-  background-image: url(/icon/search.svg);
+  background-image: url(./icon/search.svg);
   position: absolute;
   top: 0;
   right: 0;
@@ -692,7 +692,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(/icon/001-dribbble.svg);
+  background-image: url(./icon/001-dribbble.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -701,7 +701,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(/icon/001-pinterest.svg);
+  background-image: url(./icon/001-pinterest.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -710,7 +710,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(/icon/003-tumblr.svg);
+  background-image: url(./icon/003-tumblr.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -779,7 +779,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 
-  background-image: url(/icon/form-arrows.svg);
+  background-image: url(./icon/form-arrows.svg);
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: right 10px center;

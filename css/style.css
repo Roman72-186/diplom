@@ -2,7 +2,7 @@
 
 /* Секция Header - навигация и заголовок */
 .header {
-  background-image: url(/img/rock-731140_1920-1.png);
+  background-image: url(../img/rock-731140_1920-1.png);
   background-size: cover;
   background-color: #000000;
   width: 1920px;

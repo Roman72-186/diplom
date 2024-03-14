@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Дипломная работа</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/tablet.css"> -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/default.css" />
   </head>
@@ -618,52 +619,55 @@
       <a href="#" class="copyright">Copyright © 2009–2019 City Blog LLC.</a>
     </section>
   </div>
-  <div class="wrapper__popup">
-    <h2 class="title__popup">Ваш фидбек</h2>
-    <form class="form__popup">
-      <label class="site__visit">
-        Как часто вы заходите на сайт?
-        <select class="site__visit-list">
-          <option>Почти каждый день</option>
-          <option>Раз в несколько дней</option>
-          <option>Раз в несколько недель</option>
-          <option>Несколько раз в год</option>
-        </select>
-      </label>
-      <div class="email__delivery">
-        <span class="email__title">Вы подписаны на e-mail рассылку?</span>
-        <div class="choice__wrapper">
-          <div class="choice__group">
-            <label class="choice__label">
-              <input
-                class="real__input"
-                type="radio"
-                name="choice"
-                checked="checked"
-              />
-              <span class="fake__input"></span>
-              Да
-            </label>
-          </div>
-          <div class="choice__group">
-            <label class="choice__label">
-              <input class="real__input" type="radio" name="choice" />
-              <span class="fake__input"></span>
-              Нет
-            </label>
+  <div class="www">
+    <div class="wrapper__popup">
+      <h2 class="title__popup">Ваш фидбек</h2>
+      <form class="form__popup">
+        <label class="site__visit">
+          Как часто вы заходите на сайт?
+          <select class="site__visit-list">
+            <option class="www">Почти каждый день</option>
+            <option>Раз в несколько дней</option>
+            <option>Раз в несколько недель</option>
+            <option>Несколько раз в год</option>
+          </select>
+        </label>
+        <div class="email__delivery">
+          <span class="email__title">Вы подписаны на e-mail рассылку?</span>
+          <div class="choice__wrapper">
+            <div class="choice__group">
+              <label class="choice__label">
+                <input
+                  class="real__input"
+                  type="radio"
+                  name="choice"
+                  checked="checked"
+                />
+                <span class="fake__input"></span>
+                Да
+              </label>
+            </div>
+            <div class="choice__group">
+              <label class="choice__label">
+                <input class="real__input" type="radio" name="choice" />
+                <span class="fake__input"></span>
+                Нет
+              </label>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="">
-        <p>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Может, больше рецептов?"
-        ></textarea>
-      </div>
-    </form>
+        <div class="comment">
+          <label for="comment" class="content__wishes"
+            >Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label
+          >
+          <textarea
+            class="comment__text"
+            id="comment"
+            placeholder="Может, больше рецептов?"
+          ></textarea>
+        </div>
+        <button type="submit" class="popup__btn">Отправить</button>
+      </form>
+    </div>
   </div>
 </html>

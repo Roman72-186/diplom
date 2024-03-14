@@ -1,0 +1,101 @@
+@import url(./css/normalize.css);
+@import url(./default.css);
+
+/* МЕДИА ЗАПРОСЫ */
+@media (max-width: 768px) {
+  .container {
+    width: 698px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .header {
+    background-image: url(../img/rock-731140_1920.png);
+    width: 768px;
+  }
+
+  .header::after {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__logo {
+    min-width: 158px;
+  }
+
+  .main__heading {
+    font-size: 4rem;
+    line-height: 1.375;
+  }
+
+  .trends {
+    width: 768px;
+  }
+
+  .trend__title {
+    font-size: 1.8rem;
+    padding: 40px 0;
+  }
+
+  .trend__title::before {
+    bottom: 30px;
+  }
+
+  .wrapper__trends {
+    flex-wrap: wrap;
+  }
+
+  .trend__container {
+    width: calc(100% / 2 - 5px);
+  }
+
+  .title__category-link {
+    font-size: 1.7rem;
+  }
+
+  .wrapper__container {
+    margin: 0;
+  }
+
+  .list__post {
+    flex-direction: column;
+  }
+
+  .list__post-section {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 0;
+  }
+
+  .list__post-text {
+    font-size: 1.7rem;
+  }
+
+  .wrapper__new-post {
+    margin-left: 30px;
+  }
+
+  .products__wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .products__container {
+    width: calc(100% / 2 - 20px);
+  }
+
+  .products__img {}
+
+  .products__content {}
+
+  .products__title {
+    font-size: 1.7rem;
+  }
+
+  .products__text {
+    padding-bottom: 25px;
+  }
+}

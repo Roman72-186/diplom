@@ -1,10 +1,4 @@
-:root {
-  --container: 1170px;
-  --padding-container: 15px;
-  --color_fonts: rgb(181, 159, 91);
-  --color_mask: rgba(0, 0, 0, 0.6);
-  --color_substrate: rgb(239, 246, 241);
-}
+
 
 @font-face {
   src: local("Open Sans"), url("/font/OpenSans-Regular.woff2") format("woff2");

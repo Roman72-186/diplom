@@ -1,17 +1,23 @@
-@import url(./css/normalize.css);
-@import url(./default.css);
-
 /* МЕДИА ЗАПРОСЫ */
 @media (max-width: 768px) {
+  :root {
+    --container: 698px;
+    --padding-container: 35px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
   .container {
-    width: 698px;
-    padding-left: 35px;
-    padding-right: 35px;
+    width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
   }
 
   .header {
     background-image: url(../img/rock-731140_1920.png);
-    width: 768px;
+    width: 100%;
   }
 
   .header::after {
@@ -22,15 +28,25 @@
     display: none;
   }
 
+  .burger__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
   .header__logo {
     min-width: 158px;
   }
 
   .main__heading {
+    max-width: 650px;
+  }
+
+  .title {
     font-size: 4rem;
     line-height: 1.375;
   }
-
   .trends {
     width: 768px;
   }
@@ -57,11 +73,12 @@
   }
 
   .wrapper__container {
-    margin: 0;
+    width: auto;
   }
 
   .list__post {
-    flex-direction: column;
+    display: inline-block;
+    max-width: 500px;
   }
 
   .list__post-section {
@@ -72,6 +89,12 @@
 
   .list__post-text {
     font-size: 1.7rem;
+  }
+
+  .list__post-article {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(238, 238, 238);
   }
 
   .wrapper__new-post {
@@ -86,16 +109,16 @@
   .products__container {
     width: calc(100% / 2 - 20px);
   }
-
-  .products__img {}
-
-  .products__content {}
-
   .products__title {
     font-size: 1.7rem;
   }
 
   .products__text {
     padding-bottom: 25px;
+  }
+  .popup {
+    /* скрываю POPUP */
+    /* position: fixed; */
+    opacity: 0;
   }
 }

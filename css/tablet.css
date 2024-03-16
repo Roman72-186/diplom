@@ -17,7 +17,7 @@
 
   .header {
     background-image: url(../img/rock-731140_1920.png);
-    width: 100%;
+    max-width: 100%;
   }
 
   .header::after {

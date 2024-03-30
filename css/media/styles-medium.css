@@ -1,0 +1,5 @@
+@media screen and (orientation: portrait) and (min-width: 641px) and (max-width: 1200px) {
+    .trend__container {
+      width: calc(50% - 5px);
+    }
+  }

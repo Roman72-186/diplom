@@ -17,7 +17,7 @@
 
   .header {
     background-image: url(../img/rock-731140_1920.png);
-    width: 100%;
+    max-width: 768px;
   }
 
   .header::after {
@@ -44,7 +44,7 @@
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 40px;
     line-height: 1.375;
   }
   .trends {
@@ -52,7 +52,7 @@
   }
 
   .trend__title {
-    font-size: 1.8rem;
+    font-size: 18px;
     padding: 40px 0;
   }
 
@@ -60,16 +60,16 @@
     bottom: 30px;
   }
 
-  .wrapper__trends {
+  /* .wrapper__trends {
     flex-wrap: wrap;
-  }
+  } */
 
-  .trend__container {
+  /* .trend__container {
     width: calc(100% / 2 - 5px);
-  }
+  } */
 
   .title__category-link {
-    font-size: 1.7rem;
+    font-size: 17px;;
   }
 
   .wrapper__container {
@@ -88,11 +88,11 @@
   }
 
   .list__post-text {
-    font-size: 1.7rem;
+    font-size: 17px;
   }
 
   .list__post-article {
-    font-size: 1.5rem;
+    font-size: 15px;
     padding-bottom: 20px;
     border-bottom: 2px solid rgb(238, 238, 238);
   }
@@ -110,7 +110,7 @@
     width: calc(100% / 2 - 20px);
   }
   .products__title {
-    font-size: 1.7rem;
+    font-size: 17px;
   }
 
   .products__text {

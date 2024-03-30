@@ -1,89 +1,93 @@
 /* МЕДИА ЗАПРОСЫ */
 @media (max-width: 360px) {
-    :root {
-      --container: 330px;
-      --padding-container: 15px;
-    }
-  
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      width: calc(var(--container) + var(--padding-container) * 2);
-      padding: 0 var(--padding-container);
-      margin: 0 auto;
-    }
-  
-    .header {
-      background-image: url(../img/rock-731140_1920-mob.png);
-      min-height: 640px;
-    }
-  
-    .header__container {
-      padding-top: 230px;
-    }
-  
-    .header__logo {
-      min-width: 100%;
-      margin: 0 auto;
-    }
-  
-    .burger__menu {
-      position: absolute;
-      top: 30px;
-      right: 15px;
-    }
-  
-    .title {
-      font-size: 2.6rem;
-      padding: 45px 0 0;
-      line-height: 1.385;
-    }
-  
-    .trends {
-      max-width: 360px;
-    }
-  
-    .trend__title {
-      font-size: 1.6rem;
-      padding: 40px 0;
-    }
-  
-    .trend__container {
-      width: 100%;
-    }
-  
-    .title__category-link {
-      font-size: 1.6rem;
-    }
-  
-    .wrapper__container {
-      flex-direction: column;
-      gap: 45px;
-    }
-  
-    .list__post-text {
-      font-size: 1.6rem;
-    }
-  
-    .list__post-article {
-      font-size: 1.4rem;
-    }
-  
-    .products__container {
-      width: 100%;
-    }
-    .products__title {
-      padding-bottom: 10px;
-    }
-    .products__text {
-      padding-bottom: 25px;
-    }
-    .popup {
-      /* скрываю POPUP */
-      /* position: fixed; */
-      opacity: 0;
-    }
+  :root {
+    --container: 330px;
+    --padding-container: 15px;
   }
-  
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
+  }
+
+  .header {
+    background-image: url(../img/rock-731140_1920-mob.png);
+    max-width: 360px;
+    min-height: 640px;
+  }
+
+  .header__container {
+    padding-top: 230px;
+  }
+
+  .header__logo {
+    min-width: 100%;
+    margin: 0 auto;
+  }
+
+  .burger__menu {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+  }
+
+  .title {
+    font-size: 26px;
+    padding: 45px 0 0;
+    line-height: 1.385;
+  }
+
+  .trends {
+    max-width: 360px;
+  }
+
+  .trend__title {
+    font-size: 16px;
+    padding: 40px 0;
+  }
+
+  .wrapper__trends {
+    flex-wrap: wrap;
+  }
+/* 
+  .trend__container {
+    width: 100%;
+  } */
+
+  .title__category-link {
+    font-size: 16px;
+  }
+
+  .wrapper__container {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .list__post-text {
+    font-size: 16px;
+  }
+
+  .list__post-article {
+    font-size: 14px;
+  }
+
+  .products__container {
+    width: 100%;
+  }
+  .products__title {
+    padding-bottom: 10px;
+  }
+  .products__text {
+    padding-bottom: 25px;
+  }
+  .popup {
+    /* скрываю POPUP */
+    /* position: fixed; */
+    opacity: 0;
+  }
+}
